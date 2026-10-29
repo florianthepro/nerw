@@ -172,7 +172,7 @@ For more information on working with `.stl` files, see [Working with non-code fi
 
 ---
 
-
+```mermaid
 flowchart TB
     subgraph ClientA["Node A / Quelle"]
         SeedA["Master Seed"]
@@ -252,6 +252,6 @@ flowchart TB
 
     SessionA <-->|"6. authentifizierter Handshake"| SessionZ
     AppA <-->|"7. Ende-zu-Ende verschlüsselte Verbindung"| ServiceZ
-
+```
 
 
